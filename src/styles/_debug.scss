@@ -1,0 +1,13 @@
+.debug {
+
+  .navbar-brand {
+    &::after {
+      content: 'STAGING';
+      background: pink;
+      margin-left: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
+}
