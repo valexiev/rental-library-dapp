@@ -7,6 +7,7 @@ import BootstrapVue from 'bootstrap-vue'
 import App from './App'
 import router from './router'
 import { store } from './store'
+import Loading from './components/Loading'
 
 
 Vue.config.productionTip = !process.env.APP_DEBUG
@@ -14,6 +15,7 @@ Vue.config.productionTip = !process.env.APP_DEBUG
 // USE PLUGINS
 Vue.use(BootstrapVue)
 
+Vue.component('loading', Loading)
 
 /* eslint-disable no-new */
 new Vue({
