@@ -33,5 +33,9 @@ module.exports = {
     'no-multi-spaces': ['error', { 'ignoreEOLComments': true }],
     // https://eslint.org/docs/rules/no-multiple-empty-lines
     'no-multiple-empty-lines': ['error', { 'max': 2, 'maxBOF': 1, 'maxEOF': 1 }]
+  },
+  'globals': {
+    'debugger': true,
+    'web3': true
   }
 }
